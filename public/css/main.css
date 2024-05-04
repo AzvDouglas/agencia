@@ -1,0 +1,14 @@
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 4%;
+	font: 10rem;
+}
+.img-empresarial{
+	flex-direction: row;
+	width: 40px;
+}
+.img-empresarial img{
+font-size: 50%;
+}
