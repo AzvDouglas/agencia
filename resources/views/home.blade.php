@@ -18,20 +18,22 @@
     <title>Document</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
   <header>
-    1
+    @include('partials.navbar')
   </header>
 
  <div class="container-box">
     <main>
         2
+        @include('partials.solucoes')
     </main>
 
     <aside>
-        3
+      @include('partials.sidebar')
     </aside>
 
  </div>
@@ -40,7 +42,7 @@
   </nav>
 
   <footer>
-    5
+    @include('partials.footer')
   </footer>
 </body>
 
