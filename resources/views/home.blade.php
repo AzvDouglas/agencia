@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/header.css')}}">
-    <link rel="stylesheet" src="public/css/header.css">
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+    <link rel="stylesheet" src="public/css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
     </script>
@@ -20,120 +21,27 @@
 </head>
 
 <body>
-  <div class="bar-header">
-    <header>
-        <div class="logo-marca">
-            <i class='bx bxl-dev-to'></i>
-            Agência
-        </div>
+  <header>
+    1
+  </header>
 
-        <nav class="nav-bar">
-            <div class="container-header">
-                <ul class="list">
-                    <li>Inicio</li active>
-                    <li>Sobre</li>
-                    <li>Soluções</li>
-                    <li>Contato</li>
-                    <li>Depoimentos</li>
-                </ul>
-            </div>
-        </nav>
+ <div class="container-box">
+    <main>
+        2
+    </main>
 
-        <button class="btn-button">
-            WhatsApp
-        </button>
-    </header>
-  </div>
-    <div class="container">
-        <main class="home">
-            <div class="container-home">
-                
-                <h1>Informações Sobre</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni earum delectus cupiditate voluptatum,
-                sequi amet quibusdam reprehenderit porro asperiores optio voluptatem odio, quas tenetur, harum suscipit
-                llo natus pariatur? Numquam.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni earum delectus cupiditate voluptatum,
-                    sequi amet quibusdam reprehenderit porro asperiores optio voluptatem odio, quas tenetur, harum suscipit
-                    llo natus pariatur? Numquam.</p>
-                
-            </div>
-            <div class="img-home" id="foto">
-                <img src="{{asset('img/img1.png')}}" alt="">
-            </div>
-         
-        </main>
+    <aside>
+        3
+    </aside>
 
-     
-    </div>
+ </div>
+  <nav>
+    4
+  </nav>
 
-    <section id="section01" class="quemsomos">
-        <div class="title">
-            <h1 id="sobre">Sobre</h1>
-        </div>
-        <div class="container-sobre">
-            <div class="container-section">
-        
-                <div class="div-container-section">
-                    <h1 id="title-somos">Quem Somos</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis praesentium atque? Magnam perferendis voluptas qui, in illo rerum soluta? Alias reprehenderit nam, ratione sint magni architecto ullam libero voluptas!</p>
-                 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis praesentium atque? Magnam perferendis voluptas qui, in illo rerum soluta? Alias reprehenderit nam, ratione sint magni architecto ullam libero voluptas!</p>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis praesentium atque? Magnam perferendis voluptas qui, in illo rerum soluta? Alias reprehenderit nam, ratione sint magni architecto ullam libero voluptas!</p>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis praesentium atque? Magnam perferendis voluptas qui, in illo rerum soluta? Alias reprehenderit nam, ratione sint magni architecto ullam libero voluptas!</p>
-                    <br>
-                    
-                </div>
-            </div>
-    
-            <div class="div-container-section2">
-                <div class="group">
-                    <div class="cassiodev">
-                        <div class="div-img">
-                            <img src="{{asset('img/image.png')}}" alt="">
-                            <h1>Cassio Estevão</h1>
-                            <div id="icon">
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                            </div>
-                        </div>
-                        
-                       
-                        <h6>Developer FullStack</h6>
-                        <i id="github" class='bx bxl-github'></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum nulla ducimus magni repellat voluptatem a nemo voluptas esse sit doloremque corporis itaque, cum animi ex in quaerat, laudantium dignissimos.</p>
-                        
-                    </div>
-                    <div class="douglasdev">
-                        <div class="div-img">
-                            <img src="{{asset('img/image.png')}}" alt="">
-                            <h1>Cassio Estevão</h1>
-                            <div id="icon">
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                                <i class='bx bxs-star' ></i>
-                            </div>
-                        </div>
-                        
-                       
-                        <h6>Developer FullStack</h6>
-                        <i id="github" class='bx bxl-github'></i>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum nulla ducimus magni repellat voluptatem a nemo voluptas esse sit doloremque corporis itaque, cum animi ex in quaerat, laudantium dignissimos.</p>
-                        
-                    </div>
-                </div>
-        </div>
-        </div>
-
-    </section>
-
-
+  <footer>
+    5
+  </footer>
 </body>
 
 </html>
