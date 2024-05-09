@@ -11,5 +11,5 @@ Route::get('/cassio', function () {
 });
 
 Route::get('/douglas', function () {
-    return view('sobre.douglas.');
+    return view('sobre.douglas');
 });

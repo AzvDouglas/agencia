@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+header {
+    width: 100%;
+    background-color: orange;
+    padding: 40px;
+    border-radius: 20px;
+    height: 4rem;
+    text-align: center;
+    align-content: center;
+}
+.container-box {
+    display: flex;
+    gap: 20px;
+}
+main {
+    display: flex;
+    width: 70%;
+    background-color: orange;
+    border-radius: 20px;
+    height: 40vw;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+/* =====================ASIDE============================================== */
+aside {
+    display: flex;
+    width: 30%;
+    background-color: orange;
+    border-radius: 20px;
+    height: 40vw;
+    margin-top: 20px;
+
+}
+.image-inf img{
+    width: 10rem;
+    align-content: center;
+}
+.container-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.text p{
+    text-align: justify;
+    padding: 20px;
+}
+/* ===============FIM ASIDE========================================= */
+footer {
+    width: 100%;
+    background-color: beige;
+    height: 4rem;
+    text-align: center;
+    align-content: center;
+}
